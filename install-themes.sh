@@ -9,4 +9,6 @@ done
 
 cp -r ./themes/ready2install/Ultimate-Maia-Black ~/.themes
 cp -r ./themes/ready2install/Black-Maia-43 ~/.themes
+cp -r ./themes/ready2install/Kripton-v40 ~/.themes
+cp -r ./themes/ready2install/Red-Maia ~/.icons
 cp -r ./themes/ready2
