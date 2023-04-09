@@ -21,13 +21,13 @@ check-fonts-powerline:
 	sudo apt-get install -y fontconfig
 
 check-zsh-dependencies:
-    sudo apt-get install -y zsh-common libc6 libcap2 libtinfo6
+	sudo apt-get install -y zsh-common libc6 libcap2 libtinfo6
 
 check-kitty-dependencies:
 	sudo apt-get install -y kitty-terminfo python3 python3.10 libc6 libdbus-1-3 libfontconfig1 libfreetype6 libharfbuzz0b liblcms2-2 libpng16-16 libpython3.10 libwayland-client0 libx11-6 libx11-xcb1 libxkbcommon-x11-0 libxkbcommon0 zlib1g
 
 check-tmux-dependencies:
-    sudo apt-get install -y libc6 libevent-core-2.1-7 libtinfo6 libutempter0
+	sudo apt-get install -y libc6 libevent-core-2.1-7 libtinfo6 libutempter0
 
 ############# Installers #############
 
