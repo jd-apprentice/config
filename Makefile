@@ -1,6 +1,6 @@
 all: zsh directory autokey ulauncher kitty neofeth background themes
 
-looks: directory themes background
+looks: kitty tmux directory themes background
 
 zsh:
 	sudo apt-get install -y zsh
@@ -25,8 +25,13 @@ ulauncher:
 	cp -r ulauncher/* ~/.config/ulauncher/
 
 kitty:
-	sudo apt-get install -y kitty
+	sudo apt-get install -y kitty fonts-powerline
 	cp -r kitty ~/.config/
+
+tmux:
+	git clone https://github.com/gpakosz/.tmux.git
+	ln -s -f .tmux/.tmux.conf
+	cp .tmux/.tmux.conf.local .
 
 neofeth:
 	sudo apt-get install -y neofetch
@@ -39,7 +44,7 @@ background:
 
 themes:
 	sudo apt-add-repository universe
-	sudo apt-get install -y gnome-tweaks
+	sudo apt-get install -y gnome-tweaks gnome-shell-extensions gnome-shell-extension-manager
 	mkdir -p ./themes/ready2install
 	chmod +x ./install-themes.sh
 	./install-themes.sh
