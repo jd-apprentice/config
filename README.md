@@ -1,9 +1,13 @@
-# Config 🔨
+# Config 🧰
+
+## Under construction 🛠
+
+There a possible a lot of issues
 
 Run the following command to install and set up all the packages and configurations listed in the Makefile.
 
 ```make
-make all
+make
 ```
 
 To just install the look and feel of the system, run the following command.
