@@ -2,7 +2,9 @@
 
 ## Under construction 🛠
 
-There a possible a lot of issues
+There are possibly a lot of issues, so please be patient.
+
+## Run everything 🏃
 
 Run the following command to install and set up all the packages and configurations listed in the Makefile.
 
